@@ -1,11 +1,18 @@
-@import "index";
-@import "recetarios";
-@import "galeria_tematica";
-@import "nosotros";
-@import "comentarios";
-@import "cocinate_algo";
-@import "te_hiciste_un_postre";
-@import "te_pinto_un_trago";
+
+/*mixvar*/
+@import "mixvar/maps_mix_extd";
+@import "mixvar/variables";
+
+/*Pages*/
+@import "pages/index";
+@import "pages/recetarios";
+@import "pages/galeria_tematica";
+@import "pages/nosotros";
+@import "pages/comentarios";
+/*Subpages*/
+@import "subpages/cocinate_algo";
+@import "subpages/te_hiciste_un_postre";
+@import "subpages/te_pinto_un_trago";
 
 
 

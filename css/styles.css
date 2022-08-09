@@ -1,3 +1,7 @@
+/*mixvar*/
+/*mixin_galeria_tematica*/
+/*map-get-subpages*/
+/*mixin_sub_page*/
 /*Fonts styles nav*/
 /*Fonts styles Titulos main*/
 /*Fonts styles Titulos main resposive max 768 /1024*/
@@ -7,9 +11,7 @@
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
-/*mixin_galeria_tematica*/
-/*map-get-subpages*/
-/*mixin_sub_page*/
+/*Pages*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -258,15 +260,6 @@ main {
 }
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
 #body_recetario {
@@ -420,18 +413,6 @@ main .textos_main_recetario {
   }
 }
 /****** FIN PAGINA RECETARIO ******/
-/*mixin_galeria_tematica*/
-/*map-get-subpages*/
-/*mixin_sub_page*/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
 /****PAGES GALERIA TEMATICA****/
 /* MOBILE FIRST */
 main .textos_main_galeria_tematica {
@@ -594,15 +575,6 @@ main .textos_main_galeria_tematica {
   }
 }
 /****** FIN PAGINA GALERIA_TEMATICA ******/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
 /*--------PAGES NOSOTROS----------*/
 .nosotros_contenedor {
   max-width: 80%;
@@ -661,15 +633,6 @@ main .textos_main_galeria_tematica {
   }
 }
 /****** FIN PAGINA NOSOTROS ******/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
 /*--------PAGES COMENTARIOS----------*/
 .comentario_fondo {
   background-color: #eee;
@@ -708,18 +671,7 @@ main .textos_main_galeria_tematica {
   }
 }
 /*--------FIN PAGES COMENTARIOS----------*/
-/*mixin_galeria_tematica*/
-/*map-get-subpages*/
-/*mixin_sub_page*/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
+/*Subpages*/
 /*--------SUB PAGES COCINATE ALGO----------*/
 /* MOBILE FIRST */
 .recetas_sub_pages {
@@ -828,21 +780,7 @@ main .textos_main_cocinate_algo {
   .title_subpage_recetario {
     font-size: 50px;
   }
-}
-
-/****** FIN SUB PAGES COCINATE ALGO ***/
-/*mixin_galeria_tematica*/
-/*map-get-subpages*/
-/*mixin_sub_page*/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
+} /****** FIN SUB PAGES COCINATE ALGO ***/
 /****** SUB PAGES TE HICISTE UN POSTRE ******/
 /* MOBILE FIRST */
 main .textos_main_hiciste_un_postre {
@@ -905,18 +843,6 @@ main .textos_main_hiciste_un_postre {
 }
 
 /****** SUB PAGES ******/
-/*mixin_galeria_tematica*/
-/*map-get-subpages*/
-/*mixin_sub_page*/
-/*Fonts styles nav*/
-/*Fonts styles Titulos main*/
-/*Fonts styles Titulos main resposive max 768 /1024*/
-/*Fonts styles Titulos intermedios*/
-/*Font styles Footer*/
-/*Fonts styles pages recetarios - galeria tematica*/
-/*sub titulos pages recetarios - galeria tematica*/
-/*Textos pages recetarios - galeria tematica*/
-/*Textos <p> pages recetarios - galeria tematica*/
 /****** SUB PAGES TE PINTO UN TRAGO ******/
 /* MOBILE FIRST */
 main .textos_main_preparate_un_trago {
