@@ -40,14 +40,13 @@ main .textos_main_cocinate_algo {
   position: map-get($estilos_textos_subpage, position);
   overflow: map-get($estilos_textos_subpage, overflow);
   }
+  .textos_main_cocinate_algo h2 {
+    @include title_main_subpages;
+  }
   
   .img_main_cocinate_algo {
     @include img_main_subpage;
     background-image: url(../imagenes/imagen_cocinate_algo.webp);
-  }
-  
-  .textos_main_cocinate_algo h2 {
-    @include title_main_subpages;
   }
   
   /*--recetarios--*/

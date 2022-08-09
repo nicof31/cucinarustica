@@ -715,6 +715,24 @@ main .textos_main_cocinate_algo {
   overflow: hidden;
 }
 
+.textos_main_cocinate_algo h2 {
+  font-family: "Caveat", cursive;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 35px;
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .textos_main_cocinate_algo h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .textos_main_cocinate_algo h2 {
+    font-size: 70px;
+  }
+}
+
 .img_main_cocinate_algo {
   display: flex;
   width: 100%;
@@ -743,24 +761,6 @@ main .textos_main_cocinate_algo {
   }
 }
 
-.textos_main_cocinate_algo h2 {
-  font-family: "Caveat", cursive;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 35px;
-  color: black;
-}
-@media screen and (min-width: 768px) {
-  .textos_main_cocinate_algo h2 {
-    font-size: 50px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .textos_main_cocinate_algo h2 {
-    font-size: 70px;
-  }
-}
-
 /*--recetarios--*/
 .title_subpage_recetario {
   font-family: "Roboto", sans-serif;
@@ -781,7 +781,9 @@ main .textos_main_cocinate_algo {
   .title_subpage_recetario {
     font-size: 50px;
   }
-} /****** FIN SUB PAGES COCINATE ALGO ***/
+}
+
+/****** FIN SUB PAGES COCINATE ALGO ***/
 /****** SUB PAGES TE HICISTE UN POSTRE ******/
 /* MOBILE FIRST */
 main .textos_main_hiciste_un_postre {
