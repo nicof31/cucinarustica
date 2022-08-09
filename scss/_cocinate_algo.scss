@@ -1,0 +1,64 @@
+@import "maps_mix_extd";
+@import "variables";
+
+
+
+/*--------SUB PAGES COCINATE ALGO----------*/
+/* MOBILE FIRST */
+.recetas_sub_pages {
+    margin: 8%;
+    border-radius: 20px;
+    background-color: rgba(236, 240, 193, 0.247);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    transition: all 0.25s;
+  }
+  
+  .recetas_sub_pages:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recetas_sub_pages img {
+    border: solid black 2px;
+    border-radius: 10px;
+  }
+  
+  .recetas_sub_pages h3 {
+    font-weight: bold;
+  }
+  
+  .recetas_texto {
+    padding: 2%;
+  }
+
+main .textos_main_cocinate_algo {
+  display: map-get($estilos_textos_subpage, display);
+  width: map-get($estilos_textos_subpage, width);
+  height: map-get($estilos_textos_subpage, height);
+  align-items: map-get($estilos_textos_subpage, align-items);
+  justify-content: map-get($estilos_textos_subpage, justify-content);
+  flex-direction: map-get($estilos_textos_subpage, flex-direction);
+  letter-spacing: map-get($estilos_textos_subpage, letter-spacing);
+  line-height: map-get($estilos_textos_subpage, line-height);
+  position: map-get($estilos_textos_subpage, position);
+  overflow: map-get($estilos_textos_subpage, overflow);
+  }
+  
+  .img_main_cocinate_algo {
+    @include img_main_subpage;
+    background-image: url(../imagenes/imagen_cocinate_algo.webp);
+  }
+  
+  .textos_main_cocinate_algo h2 {
+    @include title_main_subpages;
+  }
+  
+  /*--recetarios--*/
+  
+  .title_subpage_recetario {
+    @include title_subpage_recetario;
+  }
+  
+   
+  /****** FIN SUB PAGES COCINATE ALGO ***/

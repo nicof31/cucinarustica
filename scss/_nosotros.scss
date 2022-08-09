@@ -1,0 +1,70 @@
+@import "variables";
+
+
+
+
+/*--------PAGES NOSOTROS----------*/
+.nosotros_contenedor {
+  max-width: 80%;
+}
+
+.text_creador h5 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  
+  .text_creador h6 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .text_creador p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .text_comentarioh2 {
+      font-size: 35px;
+    }
+  
+    .text_comentario h3 {
+      font-size: 30px;
+    }
+  
+    .text_creador h5 {
+      font-size: 35px;
+    }
+  
+    .text_creador h6 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .text_comentario h2 {
+      font-size: 45px;
+    }
+  
+    .text_comentario h3 {
+      font-size: 40px;
+    }
+  
+    .text_creador h5 {
+      font-size: 45px;
+    }
+  
+    .text_creador h6 {
+      font-size: 40px;
+    }
+  }
+  /****** FIN PAGINA NOSOTROS ******/
