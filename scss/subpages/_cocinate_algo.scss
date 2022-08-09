@@ -1,32 +1,31 @@
-
 /*--------SUB PAGES COCINATE ALGO----------*/
 /* MOBILE FIRST */
 .recetas_sub_pages {
-    margin: 8%;
-    border-radius: 20px;
-    background-color: rgba(236, 240, 193, 0.247);
-    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
-    padding: 1%;
-    transition: all 0.25s;
-  }
-  
-  .recetas_sub_pages:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .recetas_sub_pages img {
-    border: solid black 2px;
-    border-radius: 10px;
-  }
-  
-  .recetas_sub_pages h3 {
-    font-weight: bold;
-  }
-  
-  .recetas_texto {
-    padding: 2%;
-  }
+  margin: map-get($estilos_card_subpages, margin);
+  border-radius: map-get($estilos_card_subpages, border-radius);
+  background-color: map-get($estilos_card_subpages, background-color);
+  box-shadow: map-get($estilos_card_subpages, box-shadow);
+  padding: map-get($estilos_card_subpages, padding);
+  transition: map-get($estilos_card_subpages, transition);
+}
+
+.recetas_sub_pages:hover {
+  transform: map-get($estilos_card_subpages, transform);
+  box-shadow: map-get($estilos_card_subpages, box-shadow_2);
+}
+
+.recetas_sub_pages img {
+  border: map-get($estilos_card_subpages, border_img);
+  border-radius: map-get($estilos_card_subpages, border-radius_img);
+}
+
+.recetas_sub_pages h3 {
+  font-weight: map-get($estilos_card_subpages, font-weight);
+}
+
+.recetas_texto {
+  padding: map-get($estilos_card_subpages, padding_2);
+}
 
 main .textos_main_cocinate_algo {
   display: map-get($estilos_textos_subpage, display);
@@ -39,21 +38,21 @@ main .textos_main_cocinate_algo {
   line-height: map-get($estilos_textos_subpage, line-height);
   position: map-get($estilos_textos_subpage, position);
   overflow: map-get($estilos_textos_subpage, overflow);
-  }
-  .textos_main_cocinate_algo h2 {
-    @include title_main_subpages;
-  }
-  
-  .img_main_cocinate_algo {
-    @include img_main_subpage;
-    background-image: url(../imagenes/imagen_cocinate_algo.webp);
-  }
-  
-  /*--recetarios--*/
-  
-  .title_subpage_recetario {
-    @include title_subpage_recetario;
-  }
-  
-   
-  /****** FIN SUB PAGES COCINATE ALGO ***/
+}
+
+.textos_main_cocinate_algo h2 {
+  @include title_main_subpages;
+}
+
+.img_main_cocinate_algo {
+  @include img_main_subpage;
+  background-image: url(../imagenes/imagen_cocinate_algo.webp);
+}
+
+/*--recetarios--*/
+
+.title_subpage_recetario {
+  @include title_subpage_recetario;
+}
+
+/****** FIN SUB PAGES COCINATE ALGO ***/

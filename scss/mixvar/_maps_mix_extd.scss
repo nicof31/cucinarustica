@@ -24,6 +24,27 @@ $estilos_textos_subpage: (
   overflow: hidden,
 );
 
+$estilos_card_subpages: (
+  margin: 8%,
+  border-radius: 20px,
+  background-color: rgba(236, 240, 193, 0.247),
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2),
+  padding: 1%,
+  transition: all 0.25s,
+  transform: translateY(-15px),
+  box-shadow_2: 0 12px 16px rgba(0, 0, 0, 0.2),
+  border_img: solid black 2px,
+  border-radius_img: 10px,
+  font-weight: bold,
+  padding_2: 2%,
+
+
+);
+
+
+
+
+
 /*mixin_sub_page*/
 @mixin title_main_subpages {
   font-family: "Caveat", cursive;
