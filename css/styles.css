@@ -14,6 +14,7 @@
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*--boton todas las pages--*/
 .boton_generico, .boton_main,
 .boton_card {
   border: solid 2px #b73413;
@@ -167,6 +168,15 @@ main {
 }
 
 /*Novedades*/
+.card_content {
+  margin: 4%;
+}
+
+@media (min-width: 768px) {
+  .card_content {
+    margin: 0;
+  }
+}
 .title_novedades {
   text-decoration: none;
   justify-content: center;
@@ -177,6 +187,7 @@ main {
   color: #b73413;
   font-weight: 550;
   font-family: font-family-titulos-itermedios;
+  margin: 4%;
 }
 
 .title_novedades h3 {
@@ -201,6 +212,9 @@ main {
 @media (min-width: 768px) {
   #grid_index {
     grid-template-areas: "cabecera cabecera cabecera" "principal principal principal" "novedades novedades" "footer footer";
+  }
+  .title_novedades {
+    margin: 2%;
   }
   .logo_cucina {
     width: auto;
@@ -718,7 +732,6 @@ main .textos_main_cocinate_algo {
 
 .textos_main_cocinate_algo h2 {
   font-family: "Caveat", cursive;
-  font-style: bold;
   font-weight: 900;
   font-size: 35px;
   color: black;
@@ -765,13 +778,11 @@ main .textos_main_cocinate_algo {
 /*--recetarios--*/
 .title_subpage_recetario {
   font-family: "Roboto", sans-serif;
-  font-style: bold;
   font-weight: 600;
   font-size: 25px;
   text-align: center;
   color: #b73413;
   margin-top: 40px;
-  margin-left: 30px;
 }
 @media screen and (min-width: 768px) {
   .title_subpage_recetario {
@@ -830,7 +841,6 @@ main .textos_main_hiciste_un_postre {
 
 .textos_main_hiciste_un_postre h2 {
   font-family: "Caveat", cursive;
-  font-style: bold;
   font-weight: 900;
   font-size: 35px;
   color: black;
@@ -892,7 +902,6 @@ main .textos_main_preparate_un_trago {
 
 .textos_main_preparate_un_trago h2 {
   font-family: "Caveat", cursive;
-  font-style: bold;
   font-weight: 900;
   font-size: 35px;
   color: black;

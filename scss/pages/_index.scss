@@ -1,4 +1,3 @@
-
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -123,6 +122,17 @@ main {
 }
 
 /*Novedades*/
+
+.card_content {
+  margin: 4%;
+}
+
+@media (min-width: 768px) {
+  .card_content {
+    margin: 0;
+  }
+}
+
 .title_novedades {
   text-decoration: none;
   justify-content: center;
@@ -133,6 +143,7 @@ main {
   color: $font-color-titulos-itermedios;
   font-weight: $font-weight-titulos-itermedios;
   font-family: font-family-titulos-itermedios;
+  margin: 4%;
 }
 
 .title_novedades h3 {
@@ -163,6 +174,10 @@ main {
       "footer footer";
   }
 
+  .title_novedades {
+    margin: 2%;
+  }
+
   .logo_cucina {
     width: auto;
     height: 50px;
@@ -180,7 +195,6 @@ main {
     font-style: $font-style-responsive-main;
   }
 
- 
   .title_novedades h3 {
     font-size: 60px;
   }
@@ -198,7 +212,6 @@ main {
   .text_main h3 {
     font-size: 70px;
   }
-
 
   .title_novedades h3 {
     font-size: 80px;

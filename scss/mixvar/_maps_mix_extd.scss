@@ -118,7 +118,6 @@ $estilos_card_subpages: (
 /*mixin_sub_page*/
 @mixin title_main_subpages {
   font-family: "Caveat", cursive;
-  font-style: bold;
   font-weight: 900;
   font-size: 35px;
   color: black;
@@ -134,13 +133,12 @@ $estilos_card_subpages: (
 
 @mixin title_subpage_recetario {
   font-family: "Roboto", sans-serif;
-  font-style: bold;
   font-weight: 600;
   font-size: 25px;
   text-align: center;
   color: #b73413;
   margin-top: 40px;
-  margin-left: 30px;
+ 
 
   @media screen and (min-width: 768px) {
     font-size: 35px;
