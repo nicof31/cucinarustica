@@ -9,6 +9,44 @@
   align-items: center;
 }
 
+/*map-get + mixin + anidacion - pages comentarios*/
+$estilos_textos_comentarios_pg: (
+  color: black,
+  font-style: bold,
+  font-weight: 900,
+);
+
+@mixin textos_comentarios_pg {
+  color: map-get($estilos_textos_comentarios_pg, color);
+  font-family: "Roboto", sans-serif;
+  font-style: map-get($estilos_textos_comentarios_pg, font-style);
+  font-weight: map-get($estilos_textos_comentarios_pg, font-weight);
+  
+  & h2 {
+    font-size: 25px;
+    @media only screen and (min-width: 768px) {
+      font-size: 35px;
+    }
+    @media only screen and (min-width: 1024px) {
+      font-size: 45px;
+    }
+  }
+  & h3 {
+    font-size: 25px;
+    @media only screen and (min-width: 768px) {
+      font-size: 30px;
+    }
+    @media only screen and (min-width: 1024px) {
+      font-size: 40px;
+    }
+  }
+}
+
+
+
+
+
+
 /*map-get-subpages*/
 
 $estilos_textos_subpage: (
@@ -38,6 +76,7 @@ $estilos_card_subpages: (
   font-weight: bold,
   padding_2: 2%,
 );
+
 
 /*mixin_sub_page*/
 @mixin title_main_subpages {

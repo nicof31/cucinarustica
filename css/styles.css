@@ -1,5 +1,6 @@
 /*mixvar*/
 /*mixin_galeria_tematica*/
+/*map-get + mixin + anidacion - pages comentarios*/
 /*map-get-subpages*/
 /*mixin_sub_page*/
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,400&display=swap");
@@ -606,7 +607,7 @@ main .textos_main_galeria_tematica {
 }
 
 @media (min-width: 768px) {
-  .text_comentarioh2 {
+  .text_comentario h2 {
     font-size: 35px;
   }
   .text_comentario h3 {
@@ -639,38 +640,40 @@ main .textos_main_galeria_tematica {
   background-color: #eee;
 }
 
-.text_comentario h2 {
+/*Variables comentarios*/
+.text_comentario {
   color: black;
   font-family: "Roboto", sans-serif;
   font-style: bold;
   font-weight: 900;
+}
+.text_comentario h2 {
   font-size: 25px;
 }
-
-.text_comentario h3 {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 20px;
-}
-
-@media (min-width: 768px) {
-  .text_comentarioh2 {
+@media only screen and (min-width: 768px) {
+  .text_comentario h2 {
     font-size: 35px;
   }
+}
+@media only screen and (min-width: 1024px) {
+  .text_comentario h2 {
+    font-size: 45px;
+  }
+}
+.text_comentario h3 {
+  font-size: 25px;
+}
+@media only screen and (min-width: 768px) {
   .text_comentario h3 {
     font-size: 30px;
   }
 }
-@media (min-width: 1024px) {
-  .text_comentario h2 {
-    font-size: 45px;
-  }
+@media only screen and (min-width: 1024px) {
   .text_comentario h3 {
     font-size: 40px;
   }
 }
+
 /*--------FIN PAGES COMENTARIOS----------*/
 /*Subpages*/
 /*--------SUB PAGES COCINATE ALGO----------*/
