@@ -26,12 +26,6 @@
   padding-right: 10px;
 }
 
-/* MOBILE FIRST */
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
 #navbarNavAltMarkup a {
   color: $font-color-nav;
   font-family: $font-family-nav;
@@ -128,29 +122,6 @@ main {
   animation-duration: 3s;
 }
 
-.boton_generico {
-  border: solid 2px #b73413;
-  margin-top: 1px;
-  font-family: $font-family-main;
-  font-style: $font-style-main;
-  font-weight: $font-weight-main;
-  font-size: 20px;
-}
-
-.boton_main,
-.boton_card {
-  @extend .boton_generico;
-}
-
-.boton_main {
-  -webkit-text-stroke: 0.1px black;
-}
-
-.boton_card {
-  border: solid 1px black;
-  font-weight: 200;
-}
-
 /*Novedades*/
 .title_novedades {
   text-decoration: none;
@@ -209,10 +180,7 @@ main {
     font-style: $font-style-responsive-main;
   }
 
-  .boton_main {
-    font-size: 30px;
-  }
-
+ 
   .title_novedades h3 {
     font-size: 60px;
   }
@@ -231,10 +199,6 @@ main {
     font-size: 70px;
   }
 
-  .boton_main {
-    font-size: 35px;
-    padding: 3;
-  }
 
   .title_novedades h3 {
     font-size: 80px;
