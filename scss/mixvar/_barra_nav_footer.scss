@@ -1,66 +1,91 @@
-
+/*--nav bar todas las pages y sub pages--*/
 
 .paddingTB {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.col-lg-12,
+.col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.paddingT {
+  padding-top: 50px;
+}
+.centrar {
+  text-align: center;
+}
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbarNavAltMarkup a {
+  color: $font-color-nav;
+  font-family: $font-family-nav;
+  font-style: $font-style-nav;
+  font-weight: $font-weight-nav;
+}
+
+#navbarNavAltMarkup a:hover:not(.active) {
+  border-bottom: solid 3px white;
+  transition: 0.5s;
+}
+
+.navbar-toggler {
+  background-color: beige;
+  font-size: 0.5rem;
+}
+
+.navbar-toggler-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.logo_cucina {
+  width: 200px;
+  height: 40px;
+}
+
+/**-----ANIMACION LOGO-----**/
+.logo_cucina {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInLeft;
+  animation-duration: 1.8s;
+}
+/**----------------------**/
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
   }
-  .col-lg-12,
-  .col-lg-6 {
-    padding-right: 0;
-    padding-left: 0;
+}
+
+/*--Footer todas las pages y sub pages--*/
+
+#footer_boot {
+  background-color: black;
+  font-family: $font-family-footer;
+  font-style: $font-style-footer;
+  font-weight: $font-weight-footer;
+}
+
+#icono_footer {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.icono_footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  & i:hover {
+    color: orangered;
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
   }
-  .paddingT {
-    padding-top: 50px;
-  }
-  .centrar {
-    text-align: center;
-  }
-  .paddingLR {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  #navbarNavAltMarkup a {
-    color: $font-color-nav;
-    font-family: $font-family-nav;
-    font-style: $font-style-nav;
-    font-weight: $font-weight-nav;
-  }
-  
-  #navbarNavAltMarkup a:hover:not(.active) {
-    border-bottom: solid 3px white;
-    transition: 0.5s;
-  }
-  
-  .navbar-toggler {
-    background-color: beige;
-    font-size: 0.5rem;
-  }
-  
-  .navbar-toggler-icon {
-    width: 2.5em;
-    height: 2.5em;
-  
-  }
-  
-  .logo_cucina {
-    width: 200px;
-    height: 40px;
-  }
-  
-  /**-----ANIMACION LOGO-----**/
-  .logo_cucina {
-    display: inline-block;
-    margin: 0 0.5rem;
-    animation: backInLeft;
-    animation-duration: 1.8s;
-  }
-  /**----------------------**/
-  
-  /* vista desktop */
-  @media only screen and (min-width: 1024px) {
-    .navbar-expand-lg .navbar-collapse {
-      justify-content: flex-end;
-    }
-  }
-  
+}

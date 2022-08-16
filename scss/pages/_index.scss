@@ -154,31 +154,4 @@ main {
   }
 }
 
-/*footer*/
-
-#footer_boot {
-  background-color: black;
-  font-family: $font-family-footer;
-  font-style: $font-style-footer;
-  font-weight: $font-weight-footer;
-}
-
-#icono_footer {
-  font-size: 25px;
-  color: #fff;
-  padding: 10px;
-}
-
-.icono_footer a {
-  text-decoration: none;
-  color: white;
-  margin: 10px;
-  font-size: 25px;
-  & i:hover {
-    color: orangered;
-    transform: scale(1.1);
-    transition: ease-in-out 0.1s;
-  }
-}
-
 /****** FIN PAGINA PRINCPAL (INDEX) ******/

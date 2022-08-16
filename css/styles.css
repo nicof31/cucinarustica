@@ -15,7 +15,8 @@
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
 /*--boton todas las pages--*/
-.boton_generico, .boton_main,
+.boton_generico,
+.boton_main,
 .boton_card {
   border: solid 2px #b73413;
   margin-top: 1px;
@@ -45,6 +46,99 @@
     padding: 3;
   }
 }
+/*--nav bar todas las pages y sub pages--*/
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.col-lg-12,
+.col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.paddingT {
+  padding-top: 50px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbarNavAltMarkup a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#navbarNavAltMarkup a:hover:not(.active) {
+  border-bottom: solid 3px white;
+  transition: 0.5s;
+}
+
+.navbar-toggler {
+  background-color: beige;
+  font-size: 0.5rem;
+}
+
+.navbar-toggler-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.logo_cucina {
+  width: 200px;
+  height: 40px;
+}
+
+/**-----ANIMACION LOGO-----**/
+.logo_cucina {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInLeft;
+  animation-duration: 1.8s;
+}
+
+/**----------------------**/
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+/*--Footer todas las pages y sub pages--*/
+#footer_boot {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#icono_footer {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.icono_footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+}
+.icono_footer a i:hover {
+  color: orangered;
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s;
+}
+
 /*Pages*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
@@ -182,37 +276,18 @@ main {
     font-size: 80px;
   }
 }
-/*footer*/
-#footer_boot {
-  background-color: black;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-
-#icono_footer {
-  font-size: 25px;
-  color: #fff;
-  padding: 10px;
-}
-
-.icono_footer a {
-  text-decoration: none;
-  color: white;
-  margin: 10px;
-  font-size: 25px;
-}
-.icono_footer a i:hover {
-  color: orangered;
-  transform: scale(1.1);
-  transition: ease-in-out 0.1s;
-}
-
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
 #body_recetario {
-  background-image: linear-gradient(to right, #f3f4f6, #f2f5f8, #f1f6f9, #eff7f9, #eef8f9);
+  background-image: linear-gradient(
+    to right,
+    #f3f4f6,
+    #f2f5f8,
+    #f1f6f9,
+    #eff7f9,
+    #eef8f9
+  );
 }
 
 main .textos_main_recetario {
