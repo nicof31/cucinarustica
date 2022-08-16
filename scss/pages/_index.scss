@@ -79,7 +79,7 @@ main {
   color: $font-color-titulos-itermedios;
   font-weight: $font-weight-titulos-itermedios;
   font-family: font-family-titulos-itermedios;
-  margin: 4%;
+  padding: 2%;
 }
 
 .title_novedades h3 {
@@ -110,15 +110,6 @@ main {
       "footer footer";
   }
 
-  .title_novedades {
-    margin: 2%;
-  }
-
-  .logo_cucina {
-    width: auto;
-    height: 50px;
-  }
-
   .text_main h1 {
     -webkit-text-stroke: $font-webkit-text-stroke-main;
     font-size: 60px;
@@ -137,10 +128,11 @@ main {
 }
 
 @media (min-width: 1024px) {
-  .logo_cucina {
-    height: 70px;
-  }
 
+  .title_novedades {
+    padding: 0%;
+  }
+ 
   .text_main h1 {
     font-size: 80px;
   }

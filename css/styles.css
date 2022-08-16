@@ -15,8 +15,7 @@
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
 /*--boton todas las pages--*/
-.boton_generico,
-.boton_main,
+.boton_generico, .boton_main,
 .boton_card {
   border: solid 2px #b73413;
   margin-top: 1px;
@@ -98,6 +97,17 @@
   height: 40px;
 }
 
+@media (min-width: 768px) {
+  .logo_cucina {
+    width: auto;
+    height: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .logo_cucina {
+    height: 70px;
+  }
+}
 /**-----ANIMACION LOGO-----**/
 .logo_cucina {
   display: inline-block;
@@ -215,7 +225,7 @@ main {
   color: #b73413;
   font-weight: 550;
   font-family: font-family-titulos-itermedios;
-  margin: 4%;
+  padding: 2%;
 }
 
 .title_novedades h3 {
@@ -241,13 +251,6 @@ main {
   #grid_index {
     grid-template-areas: "cabecera cabecera cabecera" "principal principal principal" "novedades novedades" "footer footer";
   }
-  .title_novedades {
-    margin: 2%;
-  }
-  .logo_cucina {
-    width: auto;
-    height: 50px;
-  }
   .text_main h1 {
     -webkit-text-stroke: 1px #9a2609;
     font-size: 60px;
@@ -263,8 +266,8 @@ main {
   }
 }
 @media (min-width: 1024px) {
-  .logo_cucina {
-    height: 70px;
+  .title_novedades {
+    padding: 0%;
   }
   .text_main h1 {
     font-size: 80px;
@@ -280,14 +283,7 @@ main {
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
 #body_recetario {
-  background-image: linear-gradient(
-    to right,
-    #f3f4f6,
-    #f2f5f8,
-    #f1f6f9,
-    #eff7f9,
-    #eef8f9
-  );
+  background-image: linear-gradient(to right, #f3f4f6, #f2f5f8, #f1f6f9, #eff7f9, #eef8f9);
 }
 
 main .textos_main_recetario {

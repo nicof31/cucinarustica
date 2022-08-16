@@ -47,6 +47,19 @@
   height: 40px;
 }
 
+@media (min-width: 768px) {
+  .logo_cucina {
+    width: auto;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo_cucina {
+    height: 70px;
+  }
+}
+
 /**-----ANIMACION LOGO-----**/
 .logo_cucina {
   display: inline-block;
