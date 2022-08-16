@@ -124,13 +124,7 @@ main {
 /*Novedades*/
 
 .card_content {
-  margin: 4%;
-}
-
-@media (min-width: 768px) {
-  .card_content {
-    margin: 0;
-  }
+  padding: 1%;
 }
 
 .title_novedades {

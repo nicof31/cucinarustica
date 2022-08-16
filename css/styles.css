@@ -169,14 +169,9 @@ main {
 
 /*Novedades*/
 .card_content {
-  margin: 4%;
+  padding: 1%;
 }
 
-@media (min-width: 768px) {
-  .card_content {
-    margin: 0;
-  }
-}
 .title_novedades {
   text-decoration: none;
   justify-content: center;
