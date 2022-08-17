@@ -288,6 +288,7 @@ main {
 
 main .textos_main_recetario {
   margin-top: 50px;
+  padding: 10px;
   display: inline-block;
   height: 100px;
   width: 100%;
@@ -437,6 +438,7 @@ main .textos_main_recetario {
 /* MOBILE FIRST */
 main .textos_main_galeria_tematica {
   margin-top: 50px;
+  padding: 10px;
   display: inline-block;
   height: 100px;
   width: 100%;
