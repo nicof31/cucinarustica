@@ -108,6 +108,14 @@
     height: 70px;
   }
 }
+@media (min-width: 5100px) {
+  .logo_cucina {
+    height: 100px;
+  }
+  #navbarNavAltMarkup a {
+    font-size: 30px;
+  }
+}
 /**-----ANIMACION LOGO-----**/
 .logo_cucina {
   display: inline-block;
@@ -594,6 +602,37 @@ main .textos_main_galeria_tematica {
   }
   .subtexto_contenedor_galeria p {
     font-size: 25px;
+  }
+}
+@media (min-width: 5100px) {
+  .galeria_tematica_contenedor .card_galeria_tematica {
+    width: 1100px;
+    height: 1100px;
+  }
+  .galeria_tematica_contenedor .card_galeria_tematica img {
+    width: 700px;
+    height: 700px;
+  }
+  .textos_main_galeria_tematica h2 {
+    font-size: 100px;
+  }
+  .textos_main_galeria_tematica h3 {
+    font-size: 80px;
+  }
+  .title_galeria_tematica {
+    font-size: 50px;
+  }
+  .card_galeria_tematica h4 {
+    font-size: 65px;
+  }
+  #galeria_tematica p {
+    font-size: 35px;
+  }
+  .subtexto_contenedor_galeria h4 {
+    font-size: 65px;
+  }
+  .subtexto_contenedor_galeria p {
+    font-size: 35px;
   }
 }
 /****** FIN PAGINA GALERIA_TEMATICA ******/

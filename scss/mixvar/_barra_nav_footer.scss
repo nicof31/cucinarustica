@@ -60,6 +60,16 @@
   }
 }
 
+@media (min-width: 5100px) {
+  .logo_cucina {
+    height: 100px;
+  }
+
+  #navbarNavAltMarkup a {
+    font-size: 30px;
+  }
+}
+
 /**-----ANIMACION LOGO-----**/
 .logo_cucina {
   display: inline-block;

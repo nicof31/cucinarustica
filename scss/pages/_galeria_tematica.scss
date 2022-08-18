@@ -1,4 +1,3 @@
-
 /****PAGES GALERIA TEMATICA****/
 
 /* MOBILE FIRST */
@@ -162,6 +161,44 @@ main .textos_main_galeria_tematica {
   }
   .subtexto_contenedor_galeria p {
     font-size: $font-size-ptext-pg-1024;
+  }
+}
+
+@media (min-width: 5100px) {
+  .galeria_tematica_contenedor .card_galeria_tematica {
+    width: 1100px;
+    height: 1100px;
+  }
+
+  .galeria_tematica_contenedor .card_galeria_tematica img {
+    width: 700px;
+    height: 700px;
+  }
+  .textos_main_galeria_tematica h2 {
+    font-size: $font-size-titulos-pg-5100;
+  }
+
+  .textos_main_galeria_tematica h3 {
+    font-size: $font-size-sbtitulos-pg-5100;
+  }
+
+  .title_galeria_tematica {
+    font-size: 50px;
+  }
+  .card_galeria_tematica h4 {
+    font-size: $font-size-text-pg-5100;
+  }
+
+  #galeria_tematica p {
+    font-size: $font-size-ptext-pg-5100;
+  }
+
+  .subtexto_contenedor_galeria h4 {
+    font-size: $font-size-text-pg-5100;
+  }
+
+  .subtexto_contenedor_galeria p {
+    font-size: $font-size-ptext-pg-5100;
   }
 }
 
