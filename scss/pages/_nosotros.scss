@@ -6,4 +6,8 @@
 .text_creador {
   @include textos_nosotros_pg;
 }
+
+.nos_img_pg img {
+  @include imagen_nosotros_pg;
+}
 /****** FIN PAGINA NOSOTROS ******/

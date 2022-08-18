@@ -441,6 +441,31 @@ main .textos_main_recetario {
     font-size: 25px;
   }
 }
+@media (min-width: 5100px) {
+  .recetarios_contenedor {
+    display: grid;
+  }
+  .recetarios_contenedor .card_recetarios {
+    width: 672px;
+    height: 672px;
+  }
+  .recetarios_contenedor .card_recetarios img {
+    width: 100%;
+    height: 100%;
+  }
+  .textos_main_recetario h2 {
+    font-size: 100px;
+  }
+  .title_recetarios {
+    font-size: 80px;
+  }
+  .textos_section_recetarios h3 {
+    font-size: 65px;
+  }
+  .textos_section_recetarios p {
+    font-size: 35px;
+  }
+}
 /****** FIN PAGINA RECETARIO ******/
 /****PAGES GALERIA TEMATICA****/
 /* MOBILE FIRST */
@@ -606,8 +631,8 @@ main .textos_main_galeria_tematica {
 }
 @media (min-width: 5100px) {
   .galeria_tematica_contenedor .card_galeria_tematica {
-    width: 1100px;
-    height: 1100px;
+    width: 1012px;
+    height: 1012px;
   }
   .galeria_tematica_contenedor .card_galeria_tematica img {
     width: 700px;
@@ -659,6 +684,11 @@ main .textos_main_galeria_tematica {
     font-size: 40px;
   }
 }
+@media only screen and (min-width: 5100px) {
+  .text_creador h3 {
+    font-size: 90px;
+  }
+}
 .text_creador h5 {
   font-weight: 900;
   font-size: 25px;
@@ -671,6 +701,11 @@ main .textos_main_galeria_tematica {
 @media only screen and (min-width: 1024px) {
   .text_creador h5 {
     font-size: 45px;
+  }
+}
+@media only screen and (min-width: 5100px) {
+  .text_creador h5 {
+    font-size: 80px;
   }
 }
 .text_creador h6 {
@@ -687,9 +722,31 @@ main .textos_main_galeria_tematica {
     font-size: 40px;
   }
 }
+@media only screen and (min-width: 5100px) {
+  .text_creador h6 {
+    font-size: 60px;
+  }
+}
 .text_creador p {
   font-weight: 500;
   font-size: 20px;
+}
+@media only screen and (min-width: 5100px) {
+  .text_creador p {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 5100px) {
+  .text_creador ul {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 5100px) {
+  .nos_img_pg img {
+    height: 1249px;
+    width: 1800px;
+  }
 }
 
 /****** FIN PAGINA NOSOTROS ******/
@@ -718,6 +775,11 @@ main .textos_main_galeria_tematica {
     font-size: 45px;
   }
 }
+@media only screen and (min-width: 5100px) {
+  .text_comentario h2 {
+    font-size: 80px;
+  }
+}
 .text_comentario h3 {
   font-size: 25px;
 }
@@ -729,6 +791,11 @@ main .textos_main_galeria_tematica {
 @media only screen and (min-width: 1024px) {
   .text_comentario h3 {
     font-size: 40px;
+  }
+}
+@media only screen and (min-width: 5100px) {
+  .text_comentario h3 {
+    font-size: 70px;
   }
 }
 
