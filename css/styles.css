@@ -565,6 +565,7 @@ main .textos_main_galeria_tematica {
   width: 250px;
   height: 220px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .galeria_tematica_contenedor.card_galeria_tematica h4 {
