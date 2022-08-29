@@ -287,6 +287,11 @@ main {
     font-size: 80px;
   }
 }
+.btn_card_p {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
